@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border:20px solid #E1E7FA;
+    height: 5000px;
+}
+
+
+nav {
+    margin-top: -20px;
+    position: fixed;
+    height: 170px;
+    width: calc(100vw - 57px);
+    background-color: white;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBorder {
+    position: absolute;
+    top: 0px;
+    height: 20px; 
+    width: calc(100vw - 55px);
+    background-color: #E1E7FA;
+}
+
+.logo {
+    height:50px;
+    width: 150px;
+    margin-top: 45px;
+    margin-left: 35px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Helvetica;
+    width: calc(100vw - 50%);
+}
+
+nav ul li {
+    margin-top: 55px ;
+    margin-left: 10px;
+}
+
+.moreLinks {
+    margin-right: 25px;
+    width: 200px;
+}
+
+.moreLinks li {
+    margin-top: 45px;
+    margin-right: 25px;
+   
+}
+
+.subscribe{
+    margin: 0px 0px;
+    background-color: #0828CC;
+    border: 1px solid #0828CC;
+    border-radius: 40px; 
+    height: 38px;
+    width: 120px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+.in {
+    margin: 0px 0px;
+    background-color: black;
+    border: 1px solid #0828CC;
+    color: white;
+    height: 38px;
+    width: 38px;
+    font-family: cursive
+
+}
+
+.hero {
+    margin-left:60px;
+    background-color: #E1E7FA;
+    height: calc(80vh + 125px);
+    width: calc(100vw - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.herotext { 
+    margin-left: -575px;
+    margin-top: -250px;
+    height: 175px;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: Arial;
+    line-height: 130%;
+}
+
+p {
+    margin-top: -30px;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 200%;
+}
+
+
+.herotext button {
+    background-color: #F80051;
+    border-radius: 40px ; 
+    height: 50px;;
+    width: 200px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.row2 {
+    height: 60vh;
+    width: calc(100vw - 220px);
+    margin-top: 150px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.row2 .picture1 {
+   height: 275px;
+   width: 275px;
+   margin-left: 50px;
+   margin-right: 25px;
+   margin-top: -75px;
+}
+
+.row2 .picture2 {
+    margin-left: 25px;
+    width: calc(100% - 340px);
+    height: 100%;
+    background-color: #FBFBFB;
+}
+
+.row2 .picture2 .row2text{
+    margin-top: 100px;
+    margin-left:90px;
+}
+
+.row2 .picture2 .row2text h1{
+    font-size:60px;
+}
